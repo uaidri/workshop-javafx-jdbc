@@ -31,8 +31,7 @@ public class MainViewConroller implements Initializable {
 
 	@FXML
 	public void onMenuItemDepartmentAction() {
-		System.out.println("onMenuItemDepartmentAction");
-	}
+		loadView("/gui/DepartmentList.fxml");	}
 
 	@FXML
 	public void onMenuItemAboutAction() {
